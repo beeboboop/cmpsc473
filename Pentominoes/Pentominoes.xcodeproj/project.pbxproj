@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1F451E2AB3485800470921 /* PuzzleOverGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F451D2AB3485800470921 /* PuzzleOverGridView.swift */; };
+		4F1F45202AB3AD0E00470921 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F451F2AB3AD0E00470921 /* GameData.swift */; };
+		4F1F45272AB3C63200470921 /* ChangePuzzleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F45262AB3C63200470921 /* ChangePuzzleButton.swift */; };
+		4F1F45292AB3C64600470921 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F45282AB3C64600470921 /* ActionButton.swift */; };
+		4F1F452B2AB3C66E00470921 /* PuzzleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F452A2AB3C66E00470921 /* PuzzleShape.swift */; };
+		4F1F452D2AB3C68700470921 /* PentominoShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F452C2AB3C68700470921 /* PentominoShape.swift */; };
+		4F1F452F2AB3C6AC00470921 /* GridShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F452E2AB3C6AC00470921 /* GridShape.swift */; };
+		4F1F45312AB3CA9500470921 /* PieceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F45302AB3CA9500470921 /* PieceColor.swift */; };
+		4F1F45352AB3E5C600470921 /* GameManager+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F45342AB3E5C600470921 /* GameManager+SwiftUI.swift */; };
+		4F4D9FD32AB23BB7002F918B /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9FD22AB23BB7002F918B /* Piece.swift */; };
+		4F4D9FD52AB23BBA002F918B /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9FD42AB23BBA002F918B /* Position.swift */; };
+		4F4D9FD92AB23C5C002F918B /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9FD82AB23C5C002F918B /* GameManager.swift */; };
+		4F4D9FDB2AB23D73002F918B /* ShapeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9FDA2AB23D73002F918B /* ShapeData.swift */; };
+		4F4D9FDE2AB23FF3002F918B /* PentominoOutlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D9FDD2AB23FF3002F918B /* PentominoOutlines.json */; };
+		4F4D9FE32AB24669002F918B /* PuzzleOutlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D9FE22AB24669002F918B /* PuzzleOutlines.json */; };
+		4F4D9FEB2AB2BAB5002F918B /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D9FEA2AB2BAB5002F918B /* PieceView.swift */; };
+		4F7AB5D92AB09F1300DF063F /* PentominoesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AB5D82AB09F1300DF063F /* PentominoesApp.swift */; };
+		4F7AB5DB2AB09F1300DF063F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AB5DA2AB09F1300DF063F /* RootView.swift */; };
+		4F7AB5DD2AB09F1300DF063F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7AB5DC2AB09F1300DF063F /* Assets.xcassets */; };
+		4F7AB5E02AB09F1300DF063F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7AB5DF2AB09F1300DF063F /* Preview Assets.xcassets */; };
+		4F7AB5EA2AB09F1400DF063F /* PentominoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AB5E92AB09F1400DF063F /* PentominoesTests.swift */; };
+		4F7AB5F42AB09F1400DF063F /* PentominoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AB5F32AB09F1400DF063F /* PentominoesUITests.swift */; };
+		4F7AB5F62AB09F1400DF063F /* PentominoesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AB5F52AB09F1400DF063F /* PentominoesUITestsLaunchTests.swift */; };
+		4F81AFDE2AB4B343002D91FD /* PuzzleGridPiecesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AFDD2AB4B343002D91FD /* PuzzleGridPiecesView.swift */; };
+		4F8FD1222ABE120700C8E3F8 /* Solutions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FD1212ABE120700C8E3F8 /* Solutions.json */; };
+		4F8FD1242AC2162300C8E3F8 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FD1232AC2162300C8E3F8 /* Solution.swift */; };
+		4FBC32382AB781B800CD2FDE /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC32372AB781B800CD2FDE /* Orientation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7AB5E62AB09F1400DF063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7AB5CD2AB09F1300DF063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7AB5D42AB09F1300DF063F;
+			remoteInfo = Pentominoes;
+		};
+		4F7AB5F02AB09F1400DF063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7AB5CD2AB09F1300DF063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7AB5D42AB09F1300DF063F;
+			remoteInfo = Pentominoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1F451D2AB3485800470921 /* PuzzleOverGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleOverGridView.swift; sourceTree = "<group>"; };
+		4F1F451F2AB3AD0E00470921 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		4F1F45262AB3C63200470921 /* ChangePuzzleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePuzzleButton.swift; sourceTree = "<group>"; };
+		4F1F45282AB3C64600470921 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		4F1F452A2AB3C66E00470921 /* PuzzleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleShape.swift; sourceTree = "<group>"; };
+		4F1F452C2AB3C68700470921 /* PentominoShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentominoShape.swift; sourceTree = "<group>"; };
+		4F1F452E2AB3C6AC00470921 /* GridShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridShape.swift; sourceTree = "<group>"; };
+		4F1F45302AB3CA9500470921 /* PieceColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceColor.swift; sourceTree = "<group>"; };
+		4F1F45342AB3E5C600470921 /* GameManager+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameManager+SwiftUI.swift"; sourceTree = "<group>"; };
+		4F4D9FD22AB23BB7002F918B /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		4F4D9FD42AB23BBA002F918B /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		4F4D9FD82AB23C5C002F918B /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		4F4D9FDA2AB23D73002F918B /* ShapeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeData.swift; sourceTree = "<group>"; };
+		4F4D9FDD2AB23FF3002F918B /* PentominoOutlines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PentominoOutlines.json; sourceTree = "<group>"; };
+		4F4D9FE22AB24669002F918B /* PuzzleOutlines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PuzzleOutlines.json; sourceTree = "<group>"; };
+		4F4D9FEA2AB2BAB5002F918B /* PieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
+		4F7AB5D52AB09F1300DF063F /* Pentominoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pentominoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7AB5D82AB09F1300DF063F /* PentominoesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentominoesApp.swift; sourceTree = "<group>"; };
+		4F7AB5DA2AB09F1300DF063F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4F7AB5DC2AB09F1300DF063F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7AB5DF2AB09F1300DF063F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7AB5E52AB09F1400DF063F /* PentominoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentominoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7AB5E92AB09F1400DF063F /* PentominoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentominoesTests.swift; sourceTree = "<group>"; };
+		4F7AB5EF2AB09F1400DF063F /* PentominoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentominoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7AB5F32AB09F1400DF063F /* PentominoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentominoesUITests.swift; sourceTree = "<group>"; };
+		4F7AB5F52AB09F1400DF063F /* PentominoesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentominoesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F81AFDD2AB4B343002D91FD /* PuzzleGridPiecesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGridPiecesView.swift; sourceTree = "<group>"; };
+		4F8FD1212ABE120700C8E3F8 /* Solutions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Solutions.json; sourceTree = "<group>"; };
+		4F8FD1232AC2162300C8E3F8 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		4FBC32372AB781B800CD2FDE /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7AB5D22AB09F1300DF063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5E22AB09F1400DF063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5EC2AB09F1400DF063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1F45252AB3C62200470921 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4F1F45262AB3C63200470921 /* ChangePuzzleButton.swift */,
+				4F1F45282AB3C64600470921 /* ActionButton.swift */,
+				4F1F452A2AB3C66E00470921 /* PuzzleShape.swift */,
+				4F1F452C2AB3C68700470921 /* PentominoShape.swift */,
+				4F1F452E2AB3C6AC00470921 /* GridShape.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		4F4D9FDC2AB23FE4002F918B /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FD1212ABE120700C8E3F8 /* Solutions.json */,
+				4F4D9FE22AB24669002F918B /* PuzzleOutlines.json */,
+				4F4D9FDD2AB23FF3002F918B /* PentominoOutlines.json */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		4F7AB5CC2AB09F1300DF063F = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5D72AB09F1300DF063F /* Pentominoes */,
+				4F7AB5E82AB09F1400DF063F /* PentominoesTests */,
+				4F7AB5F22AB09F1400DF063F /* PentominoesUITests */,
+				4F7AB5D62AB09F1300DF063F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7AB5D62AB09F1300DF063F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5D52AB09F1300DF063F /* Pentominoes.app */,
+				4F7AB5E52AB09F1400DF063F /* PentominoesTests.xctest */,
+				4F7AB5EF2AB09F1400DF063F /* PentominoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F7AB5D72AB09F1300DF063F /* Pentominoes */ = {
+			isa = PBXGroup;
+			children = (
+				4F1F45252AB3C62200470921 /* Subviews */,
+				4F4D9FDC2AB23FE4002F918B /* ModelData */,
+				4F7AB6042AB0A23C00DF063F /* Views */,
+				4F7AB6032AB0A23500DF063F /* Model */,
+				4F7AB6022AB0A21C00DF063F /* ViewModel */,
+				4F7AB5D82AB09F1300DF063F /* PentominoesApp.swift */,
+				4F7AB5DC2AB09F1300DF063F /* Assets.xcassets */,
+				4F7AB5DE2AB09F1300DF063F /* Preview Content */,
+			);
+			path = Pentominoes;
+			sourceTree = "<group>";
+		};
+		4F7AB5DE2AB09F1300DF063F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5DF2AB09F1300DF063F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7AB5E82AB09F1400DF063F /* PentominoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5E92AB09F1400DF063F /* PentominoesTests.swift */,
+			);
+			path = PentominoesTests;
+			sourceTree = "<group>";
+		};
+		4F7AB5F22AB09F1400DF063F /* PentominoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5F32AB09F1400DF063F /* PentominoesUITests.swift */,
+				4F7AB5F52AB09F1400DF063F /* PentominoesUITestsLaunchTests.swift */,
+			);
+			path = PentominoesUITests;
+			sourceTree = "<group>";
+		};
+		4F7AB6022AB0A21C00DF063F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D9FD82AB23C5C002F918B /* GameManager.swift */,
+				4F1F45342AB3E5C600470921 /* GameManager+SwiftUI.swift */,
+				4F1F45302AB3CA9500470921 /* PieceColor.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F7AB6032AB0A23500DF063F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC32372AB781B800CD2FDE /* Orientation.swift */,
+				4F4D9FDA2AB23D73002F918B /* ShapeData.swift */,
+				4F4D9FD42AB23BBA002F918B /* Position.swift */,
+				4F4D9FD22AB23BB7002F918B /* Piece.swift */,
+				4F1F451F2AB3AD0E00470921 /* GameData.swift */,
+				4F8FD1232AC2162300C8E3F8 /* Solution.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F7AB6042AB0A23C00DF063F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AB5DA2AB09F1300DF063F /* RootView.swift */,
+				4F4D9FEA2AB2BAB5002F918B /* PieceView.swift */,
+				4F1F451D2AB3485800470921 /* PuzzleOverGridView.swift */,
+				4F81AFDD2AB4B343002D91FD /* PuzzleGridPiecesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7AB5D42AB09F1300DF063F /* Pentominoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7AB5F92AB09F1400DF063F /* Build configuration list for PBXNativeTarget "Pentominoes" */;
+			buildPhases = (
+				4F7AB5D12AB09F1300DF063F /* Sources */,
+				4F7AB5D22AB09F1300DF063F /* Frameworks */,
+				4F7AB5D32AB09F1300DF063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pentominoes;
+			productName = Pentominoes;
+			productReference = 4F7AB5D52AB09F1300DF063F /* Pentominoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F7AB5E42AB09F1400DF063F /* PentominoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7AB5FC2AB09F1400DF063F /* Build configuration list for PBXNativeTarget "PentominoesTests" */;
+			buildPhases = (
+				4F7AB5E12AB09F1400DF063F /* Sources */,
+				4F7AB5E22AB09F1400DF063F /* Frameworks */,
+				4F7AB5E32AB09F1400DF063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7AB5E72AB09F1400DF063F /* PBXTargetDependency */,
+			);
+			name = PentominoesTests;
+			productName = PentominoesTests;
+			productReference = 4F7AB5E52AB09F1400DF063F /* PentominoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F7AB5EE2AB09F1400DF063F /* PentominoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7AB5FF2AB09F1400DF063F /* Build configuration list for PBXNativeTarget "PentominoesUITests" */;
+			buildPhases = (
+				4F7AB5EB2AB09F1400DF063F /* Sources */,
+				4F7AB5EC2AB09F1400DF063F /* Frameworks */,
+				4F7AB5ED2AB09F1400DF063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7AB5F12AB09F1400DF063F /* PBXTargetDependency */,
+			);
+			name = PentominoesUITests;
+			productName = PentominoesUITests;
+			productReference = 4F7AB5EF2AB09F1400DF063F /* PentominoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F7AB5CD2AB09F1300DF063F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F7AB5D42AB09F1300DF063F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4F7AB5E42AB09F1400DF063F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4F7AB5D42AB09F1300DF063F;
+					};
+					4F7AB5EE2AB09F1400DF063F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4F7AB5D42AB09F1300DF063F;
+					};
+				};
+			};
+			buildConfigurationList = 4F7AB5D02AB09F1300DF063F /* Build configuration list for PBXProject "Pentominoes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F7AB5CC2AB09F1300DF063F;
+			productRefGroup = 4F7AB5D62AB09F1300DF063F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7AB5D42AB09F1300DF063F /* Pentominoes */,
+				4F7AB5E42AB09F1400DF063F /* PentominoesTests */,
+				4F7AB5EE2AB09F1400DF063F /* PentominoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7AB5D32AB09F1300DF063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FD1222ABE120700C8E3F8 /* Solutions.json in Resources */,
+				4F4D9FE32AB24669002F918B /* PuzzleOutlines.json in Resources */,
+				4F7AB5E02AB09F1300DF063F /* Preview Assets.xcassets in Resources */,
+				4F7AB5DD2AB09F1300DF063F /* Assets.xcassets in Resources */,
+				4F4D9FDE2AB23FF3002F918B /* PentominoOutlines.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5E32AB09F1400DF063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5ED2AB09F1400DF063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7AB5D12AB09F1300DF063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1F45312AB3CA9500470921 /* PieceColor.swift in Sources */,
+				4F7AB5DB2AB09F1300DF063F /* RootView.swift in Sources */,
+				4F8FD1242AC2162300C8E3F8 /* Solution.swift in Sources */,
+				4F1F45272AB3C63200470921 /* ChangePuzzleButton.swift in Sources */,
+				4F4D9FEB2AB2BAB5002F918B /* PieceView.swift in Sources */,
+				4F7AB5D92AB09F1300DF063F /* PentominoesApp.swift in Sources */,
+				4F1F452B2AB3C66E00470921 /* PuzzleShape.swift in Sources */,
+				4F1F45202AB3AD0E00470921 /* GameData.swift in Sources */,
+				4F4D9FD52AB23BBA002F918B /* Position.swift in Sources */,
+				4F81AFDE2AB4B343002D91FD /* PuzzleGridPiecesView.swift in Sources */,
+				4F1F452D2AB3C68700470921 /* PentominoShape.swift in Sources */,
+				4F1F452F2AB3C6AC00470921 /* GridShape.swift in Sources */,
+				4F4D9FD32AB23BB7002F918B /* Piece.swift in Sources */,
+				4F4D9FD92AB23C5C002F918B /* GameManager.swift in Sources */,
+				4F1F451E2AB3485800470921 /* PuzzleOverGridView.swift in Sources */,
+				4F1F45352AB3E5C600470921 /* GameManager+SwiftUI.swift in Sources */,
+				4F4D9FDB2AB23D73002F918B /* ShapeData.swift in Sources */,
+				4FBC32382AB781B800CD2FDE /* Orientation.swift in Sources */,
+				4F1F45292AB3C64600470921 /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5E12AB09F1400DF063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7AB5EA2AB09F1400DF063F /* PentominoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7AB5EB2AB09F1400DF063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7AB5F62AB09F1400DF063F /* PentominoesUITestsLaunchTests.swift in Sources */,
+				4F7AB5F42AB09F1400DF063F /* PentominoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7AB5E72AB09F1400DF063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7AB5D42AB09F1300DF063F /* Pentominoes */;
+			targetProxy = 4F7AB5E62AB09F1400DF063F /* PBXContainerItemProxy */;
+		};
+		4F7AB5F12AB09F1400DF063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7AB5D42AB09F1300DF063F /* Pentominoes */;
+			targetProxy = 4F7AB5F02AB09F1400DF063F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F7AB5F72AB09F1400DF063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F7AB5F82AB09F1400DF063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F7AB5FA2AB09F1400DF063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentominoes/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.Pentominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4F7AB5FB2AB09F1400DF063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentominoes/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.Pentominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4F7AB5FD2AB09F1400DF063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.PentominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentominoes";
+			};
+			name = Debug;
+		};
+		4F7AB5FE2AB09F1400DF063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.PentominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentominoes";
+			};
+			name = Release;
+		};
+		4F7AB6002AB09F1400DF063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.PentominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentominoes;
+			};
+			name = Debug;
+		};
+		4F7AB6012AB09F1400DF063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.PentominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentominoes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7AB5D02AB09F1300DF063F /* Build configuration list for PBXProject "Pentominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7AB5F72AB09F1400DF063F /* Debug */,
+				4F7AB5F82AB09F1400DF063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7AB5F92AB09F1400DF063F /* Build configuration list for PBXNativeTarget "Pentominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7AB5FA2AB09F1400DF063F /* Debug */,
+				4F7AB5FB2AB09F1400DF063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7AB5FC2AB09F1400DF063F /* Build configuration list for PBXNativeTarget "PentominoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7AB5FD2AB09F1400DF063F /* Debug */,
+				4F7AB5FE2AB09F1400DF063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7AB5FF2AB09F1400DF063F /* Build configuration list for PBXNativeTarget "PentominoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7AB6002AB09F1400DF063F /* Debug */,
+				4F7AB6012AB09F1400DF063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F7AB5CD2AB09F1300DF063F /* Project object */;
+}

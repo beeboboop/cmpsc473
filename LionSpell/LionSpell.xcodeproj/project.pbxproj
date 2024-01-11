@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2A34642AAEB8640087561D /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A34632AAEB8640087561D /* PreferencesView.swift */; };
+		4F2A34662AAEB86E0087561D /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A34652AAEB86E0087561D /* HintView.swift */; };
+		4F30A9282AA76C0200FAE115 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F30A9272AA76C0200FAE115 /* Preferences.swift */; };
+		4F4BB8352AB02FEF00979DAE /* ButtonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BB8342AB02FEF00979DAE /* ButtonShape.swift */; };
+		4F82D02D2AA0D7580038EBD5 /* GameInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82D02C2AA0D7580038EBD5 /* GameInstance.swift */; };
+		4F9E404F2AA0D1CF00859EF2 /* AllWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E404E2AA0D1CF00859EF2 /* AllWords.swift */; };
+		4FA616AA2A9D68670053CB6B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616A92A9D68670053CB6B /* RootView.swift */; };
+		4FA616AC2A9D71490053CB6B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616AB2A9D71490053CB6B /* HeaderView.swift */; };
+		4FA616AE2A9D73DE0053CB6B /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616AD2A9D73DE0053CB6B /* WordListView.swift */; };
+		4FA616B02A9D73EC0053CB6B /* WordEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616AF2A9D73EC0053CB6B /* WordEntryView.swift */; };
+		4FA616B22A9D74000053CB6B /* LetterButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616B12A9D74000053CB6B /* LetterButtonsView.swift */; };
+		4FA616B42A9D74560053CB6B /* MenuButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616B32A9D74560053CB6B /* MenuButtonsView.swift */; };
+		4FA616B62A9D74720053CB6B /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616B52A9D74720053CB6B /* ScoreView.swift */; };
+		4FA616B82A9D74800053CB6B /* EditingButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA616B72A9D74800053CB6B /* EditingButtonsView.swift */; };
+		4FA8BFDD2A9D4EA00037DB7F /* LionSpellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8BFDC2A9D4EA00037DB7F /* LionSpellApp.swift */; };
+		4FA8BFE12A9D4EA10037DB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA8BFE02A9D4EA10037DB7F /* Assets.xcassets */; };
+		4FA8BFE42A9D4EA10037DB7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA8BFE32A9D4EA10037DB7F /* Preview Assets.xcassets */; };
+		4FA8BFEE2A9D4EA10037DB7F /* LionSpellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8BFED2A9D4EA10037DB7F /* LionSpellTests.swift */; };
+		4FA8BFF82A9D4EA10037DB7F /* LionSpellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8BFF72A9D4EA10037DB7F /* LionSpellUITests.swift */; };
+		4FA8BFFA2A9D4EA10037DB7F /* LionSpellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8BFF92A9D4EA10037DB7F /* LionSpellUITestsLaunchTests.swift */; };
+		4FE66EDA2AA66DDA00BE2B1F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE66ED92AA66DDA00BE2B1F /* GameManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA8BFEA2A9D4EA10037DB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA8BFD12A9D4EA00037DB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA8BFD82A9D4EA00037DB7F;
+			remoteInfo = LionSpell;
+		};
+		4FA8BFF42A9D4EA10037DB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA8BFD12A9D4EA00037DB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA8BFD82A9D4EA00037DB7F;
+			remoteInfo = LionSpell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F2A34632AAEB8640087561D /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		4F2A34652AAEB86E0087561D /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
+		4F30A9272AA76C0200FAE115 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		4F4BB8342AB02FEF00979DAE /* ButtonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShape.swift; sourceTree = "<group>"; };
+		4F82D02C2AA0D7580038EBD5 /* GameInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInstance.swift; sourceTree = "<group>"; };
+		4F9E404E2AA0D1CF00859EF2 /* AllWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWords.swift; sourceTree = "<group>"; };
+		4FA616A92A9D68670053CB6B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4FA616AB2A9D71490053CB6B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4FA616AD2A9D73DE0053CB6B /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		4FA616AF2A9D73EC0053CB6B /* WordEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEntryView.swift; sourceTree = "<group>"; };
+		4FA616B12A9D74000053CB6B /* LetterButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonsView.swift; sourceTree = "<group>"; };
+		4FA616B32A9D74560053CB6B /* MenuButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonsView.swift; sourceTree = "<group>"; };
+		4FA616B52A9D74720053CB6B /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		4FA616B72A9D74800053CB6B /* EditingButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingButtonsView.swift; sourceTree = "<group>"; };
+		4FA8BFD92A9D4EA00037DB7F /* LionSpell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionSpell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA8BFDC2A9D4EA00037DB7F /* LionSpellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellApp.swift; sourceTree = "<group>"; };
+		4FA8BFE02A9D4EA10037DB7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA8BFE32A9D4EA10037DB7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FA8BFE92A9D4EA10037DB7F /* LionSpellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionSpellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA8BFED2A9D4EA10037DB7F /* LionSpellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellTests.swift; sourceTree = "<group>"; };
+		4FA8BFF32A9D4EA10037DB7F /* LionSpellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionSpellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA8BFF72A9D4EA10037DB7F /* LionSpellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellUITests.swift; sourceTree = "<group>"; };
+		4FA8BFF92A9D4EA10037DB7F /* LionSpellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FE66ED92AA66DDA00BE2B1F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA8BFD62A9D4EA00037DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFE62A9D4EA10037DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFF02A9D4EA10037DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA8BFD02A9D4EA00037DB7F = {
+			isa = PBXGroup;
+			children = (
+				4FA8BFDB2A9D4EA00037DB7F /* LionSpell */,
+				4FA8BFEC2A9D4EA10037DB7F /* LionSpellTests */,
+				4FA8BFF62A9D4EA10037DB7F /* LionSpellUITests */,
+				4FA8BFDA2A9D4EA00037DB7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA8BFDA2A9D4EA00037DB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8BFD92A9D4EA00037DB7F /* LionSpell.app */,
+				4FA8BFE92A9D4EA10037DB7F /* LionSpellTests.xctest */,
+				4FA8BFF32A9D4EA10037DB7F /* LionSpellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA8BFDB2A9D4EA00037DB7F /* LionSpell */ = {
+			isa = PBXGroup;
+			children = (
+				4FE66EDD2AA6B9BB00BE2B1F /* ViewModels */,
+				4FE66EDC2AA6B9B200BE2B1F /* Models */,
+				4FE66EDB2AA6B9AC00BE2B1F /* Views */,
+				4FA8BFDC2A9D4EA00037DB7F /* LionSpellApp.swift */,
+				4FA8BFE02A9D4EA10037DB7F /* Assets.xcassets */,
+				4FA8BFE22A9D4EA10037DB7F /* Preview Content */,
+			);
+			path = LionSpell;
+			sourceTree = "<group>";
+		};
+		4FA8BFE22A9D4EA10037DB7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8BFE32A9D4EA10037DB7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FA8BFEC2A9D4EA10037DB7F /* LionSpellTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8BFED2A9D4EA10037DB7F /* LionSpellTests.swift */,
+			);
+			path = LionSpellTests;
+			sourceTree = "<group>";
+		};
+		4FA8BFF62A9D4EA10037DB7F /* LionSpellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8BFF72A9D4EA10037DB7F /* LionSpellUITests.swift */,
+				4FA8BFF92A9D4EA10037DB7F /* LionSpellUITestsLaunchTests.swift */,
+			);
+			path = LionSpellUITests;
+			sourceTree = "<group>";
+		};
+		4FE66EDB2AA6B9AC00BE2B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FA616A92A9D68670053CB6B /* RootView.swift */,
+				4FA616AB2A9D71490053CB6B /* HeaderView.swift */,
+				4FA616AD2A9D73DE0053CB6B /* WordListView.swift */,
+				4FA616AF2A9D73EC0053CB6B /* WordEntryView.swift */,
+				4FA616B12A9D74000053CB6B /* LetterButtonsView.swift */,
+				4FA616B32A9D74560053CB6B /* MenuButtonsView.swift */,
+				4FA616B52A9D74720053CB6B /* ScoreView.swift */,
+				4FA616B72A9D74800053CB6B /* EditingButtonsView.swift */,
+				4F2A34632AAEB8640087561D /* PreferencesView.swift */,
+				4F2A34652AAEB86E0087561D /* HintView.swift */,
+				4F4BB8342AB02FEF00979DAE /* ButtonShape.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FE66EDC2AA6B9B200BE2B1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F82D02C2AA0D7580038EBD5 /* GameInstance.swift */,
+				4F9E404E2AA0D1CF00859EF2 /* AllWords.swift */,
+				4F30A9272AA76C0200FAE115 /* Preferences.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FE66EDD2AA6B9BB00BE2B1F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4FE66ED92AA66DDA00BE2B1F /* GameManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA8BFD82A9D4EA00037DB7F /* LionSpell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA8BFFD2A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpell" */;
+			buildPhases = (
+				4FA8BFD52A9D4EA00037DB7F /* Sources */,
+				4FA8BFD62A9D4EA00037DB7F /* Frameworks */,
+				4FA8BFD72A9D4EA00037DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionSpell;
+			productName = LionSpell;
+			productReference = 4FA8BFD92A9D4EA00037DB7F /* LionSpell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FA8BFE82A9D4EA10037DB7F /* LionSpellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA8C0002A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpellTests" */;
+			buildPhases = (
+				4FA8BFE52A9D4EA10037DB7F /* Sources */,
+				4FA8BFE62A9D4EA10037DB7F /* Frameworks */,
+				4FA8BFE72A9D4EA10037DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA8BFEB2A9D4EA10037DB7F /* PBXTargetDependency */,
+			);
+			name = LionSpellTests;
+			productName = LionSpellTests;
+			productReference = 4FA8BFE92A9D4EA10037DB7F /* LionSpellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FA8BFF22A9D4EA10037DB7F /* LionSpellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA8C0032A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpellUITests" */;
+			buildPhases = (
+				4FA8BFEF2A9D4EA10037DB7F /* Sources */,
+				4FA8BFF02A9D4EA10037DB7F /* Frameworks */,
+				4FA8BFF12A9D4EA10037DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA8BFF52A9D4EA10037DB7F /* PBXTargetDependency */,
+			);
+			name = LionSpellUITests;
+			productName = LionSpellUITests;
+			productReference = 4FA8BFF32A9D4EA10037DB7F /* LionSpellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA8BFD12A9D4EA00037DB7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4FA8BFD82A9D4EA00037DB7F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4FA8BFE82A9D4EA10037DB7F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4FA8BFD82A9D4EA00037DB7F;
+					};
+					4FA8BFF22A9D4EA10037DB7F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4FA8BFD82A9D4EA00037DB7F;
+					};
+				};
+			};
+			buildConfigurationList = 4FA8BFD42A9D4EA00037DB7F /* Build configuration list for PBXProject "LionSpell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA8BFD02A9D4EA00037DB7F;
+			productRefGroup = 4FA8BFDA2A9D4EA00037DB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA8BFD82A9D4EA00037DB7F /* LionSpell */,
+				4FA8BFE82A9D4EA10037DB7F /* LionSpellTests */,
+				4FA8BFF22A9D4EA10037DB7F /* LionSpellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA8BFD72A9D4EA00037DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA8BFE42A9D4EA10037DB7F /* Preview Assets.xcassets in Resources */,
+				4FA8BFE12A9D4EA10037DB7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFE72A9D4EA10037DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFF12A9D4EA10037DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA8BFD52A9D4EA00037DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA616B22A9D74000053CB6B /* LetterButtonsView.swift in Sources */,
+				4F2A34662AAEB86E0087561D /* HintView.swift in Sources */,
+				4FE66EDA2AA66DDA00BE2B1F /* GameManager.swift in Sources */,
+				4FA616B62A9D74720053CB6B /* ScoreView.swift in Sources */,
+				4FA616AE2A9D73DE0053CB6B /* WordListView.swift in Sources */,
+				4FA616B02A9D73EC0053CB6B /* WordEntryView.swift in Sources */,
+				4F82D02D2AA0D7580038EBD5 /* GameInstance.swift in Sources */,
+				4FA8BFDD2A9D4EA00037DB7F /* LionSpellApp.swift in Sources */,
+				4FA616AC2A9D71490053CB6B /* HeaderView.swift in Sources */,
+				4F4BB8352AB02FEF00979DAE /* ButtonShape.swift in Sources */,
+				4FA616B42A9D74560053CB6B /* MenuButtonsView.swift in Sources */,
+				4F30A9282AA76C0200FAE115 /* Preferences.swift in Sources */,
+				4FA616AA2A9D68670053CB6B /* RootView.swift in Sources */,
+				4FA616B82A9D74800053CB6B /* EditingButtonsView.swift in Sources */,
+				4F9E404F2AA0D1CF00859EF2 /* AllWords.swift in Sources */,
+				4F2A34642AAEB8640087561D /* PreferencesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFE52A9D4EA10037DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA8BFEE2A9D4EA10037DB7F /* LionSpellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA8BFEF2A9D4EA10037DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA8BFF82A9D4EA10037DB7F /* LionSpellUITests.swift in Sources */,
+				4FA8BFFA2A9D4EA10037DB7F /* LionSpellUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA8BFEB2A9D4EA10037DB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA8BFD82A9D4EA00037DB7F /* LionSpell */;
+			targetProxy = 4FA8BFEA2A9D4EA10037DB7F /* PBXContainerItemProxy */;
+		};
+		4FA8BFF52A9D4EA10037DB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA8BFD82A9D4EA00037DB7F /* LionSpell */;
+			targetProxy = 4FA8BFF42A9D4EA10037DB7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FA8BFFB2A9D4EA10037DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA8BFFC2A9D4EA10037DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA8BFFE2A9D4EA10037DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionSpell/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA8BFFF2A9D4EA10037DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionSpell/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FA8C0012A9D4EA10037DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionSpell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionSpell";
+			};
+			name = Debug;
+		};
+		4FA8C0022A9D4EA10037DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionSpell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionSpell";
+			};
+			name = Release;
+		};
+		4FA8C0042A9D4EA10037DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionSpell;
+			};
+			name = Debug;
+		};
+		4FA8C0052A9D4EA10037DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2APS52V52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.ejs6233.LionSpellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionSpell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA8BFD42A9D4EA00037DB7F /* Build configuration list for PBXProject "LionSpell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA8BFFB2A9D4EA10037DB7F /* Debug */,
+				4FA8BFFC2A9D4EA10037DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA8BFFD2A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA8BFFE2A9D4EA10037DB7F /* Debug */,
+				4FA8BFFF2A9D4EA10037DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA8C0002A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA8C0012A9D4EA10037DB7F /* Debug */,
+				4FA8C0022A9D4EA10037DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA8C0032A9D4EA10037DB7F /* Build configuration list for PBXNativeTarget "LionSpellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA8C0042A9D4EA10037DB7F /* Debug */,
+				4FA8C0052A9D4EA10037DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA8BFD12A9D4EA00037DB7F /* Project object */;
+}
